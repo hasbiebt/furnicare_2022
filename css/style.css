@@ -68,7 +68,7 @@
 	margin-top: 70px;
 }
 
-#container-bawahh{
+#services{
 	padding: 0;
 	background-color: #FFEFDC;
 }
@@ -79,4 +79,23 @@
 	color: #57523E;
 	font-weight: 500;
 	font-size: 50px;
+}
+
+.content-service{
+	padding-left: 55px;
+}
+
+#bg-white{
+	background-color: white;
+	height: 475px;
+	width: 810px;
+/*	margin-bottom: 50px;*/
+}
+
+.img{
+	max-width: 116%;
+}
+
+#bg-white>col-4{
+	padding-left: 0;
 }
