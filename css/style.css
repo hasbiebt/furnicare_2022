@@ -34,7 +34,7 @@
 	border-color: transparent;
 }
 
-.row>*{
+#row-p1>*{
 	padding-left: 0;
 }
 
@@ -66,4 +66,17 @@
 #livingroom{
 	height: 700px;
 	margin-top: 70px;
+}
+
+#container-bawahh{
+	padding: 0;
+	background-color: #FFEFDC;
+}
+
+#span-header{
+	padding-top: 20px;
+	text-align: center;
+	color: #57523E;
+	font-weight: 500;
+	font-size: 50px;
 }
