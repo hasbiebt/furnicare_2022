@@ -1,23 +1,6 @@
-html{
-	scroll-behavior: smooth;
-}
-
 *{
 	font-family: 'Montserrat', sans-serif;
 	color: #57523E
-}
-
-.nav-link{
-	font-size: 18px;
-	font-weight: 400;
-}
-
-.nav-link:visited{
-	color: black;
-}
-
-.dropdown-menu{
-	border-radius: 0;
 }
 
 .btn{
@@ -43,45 +26,13 @@ html{
 	border-color: transparent;
 }
 
-#row-p1>*{
-	padding-left: 0;
-}
-
-.col-5{
-	padding-right: 0;
-	padding-left: 80px;
-	text-align: right;
-}
-
-.col-5>p{
-	text-align: right;
-}
-
-.caption-main{
-	font-size: 50px;
-	font-weight: 500;
-	line-height: 1.25;
-	margin-top: 350px;
-}
-
-.caption-italic{
-	font-size: 20px;
-	font-style: italic;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-#livingroom{
-	height: 700px;
-	margin-top: 70px;
-}
-
-#services{
-	background-color: #FFEFDC;
+.nav-link{
+	font-size: 18px;
+	font-weight: 400;
 }
 
 #span-header{
-	padding-top: 20px;
+	padding-top: 90px;
 	text-align: center;
 	font-weight: 500;
 	font-size: 50px;
@@ -92,7 +43,7 @@ html{
 }
 
 #bg-white{
-	background-color: white;
+	background-color: #FFF3E5;
 	height: 475px;
 	width: 810px;
 }
@@ -110,17 +61,22 @@ html{
 }
 
 #bg-white:nth-child(1){
-	padding-top: 100px;
+	padding-top: 20px;
 	padding-left: 40px;
 /*	line-height: 1.7;*/
 }
 
 #bg-white>h3, p{
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 .btn#services-button{
 	margin-left: 0;
-	margin-top: 35px;
+	margin-top: -15px;
 	width: 150px;
+}
+
+#terms{
+	margin-top: -35px;
+	font-size: 12px;
 }
