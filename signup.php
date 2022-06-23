@@ -23,31 +23,31 @@
         <div class="bg-right col-lg-5">
             <div class=" form-signup">
                 <h1 class="welcome-font">Create a new account</h1>
-                <form>
+                <form action="php/register.php" method="POST">
                     <div class="mb-3">
-                      <input placeholder="Full name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <input placeholder="Full name" type="text" class="form-control" id="full_name" name="full_name" aria-describedby="emailHelp">
                     </div>
                     <div class="mb-3">
-                      <input placeholder="Username" type="text" class="form-control" id="exampleInputPassword1">
+                      <input placeholder="Username" type="text" class="form-control" id="user_name" name="user_name">
                     </div>
                     <div class="mb-3">
-                        <input placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input placeholder="Email" type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                       </div>
                       <div class="mb-3">
-                        <input placeholder="Phone number" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input placeholder="Phone number" type="number" class="form-control" id="phone_no" name="phone_no"aria-describedby="emailHelp">
                       </div>
                       <div class="mb-3">
-                        <input placeholder="Password" type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input placeholder="Password" type="password" class="form-control" id="password" name="password"aria-describedby="emailHelp">
                       </div>
                       <div class="mb-3">
-                        <input placeholder="Confirm password" type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input placeholder="Confirm password" type="password" class="form-control" id="confirm_password" aria-describedby="emailHelp">
                       </div>
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Remind me</label>
                     </div>
-                    <button type="submit" class=" button-signup btn btn-primary">Sign up</button>
-                  </form>
+                    <button type="submit" class="button-signup btn btn-primary" value="submit" name="register">Sign up</button>
+                </form>
             </div>
         </div>
         <div class="bg-right col-lg-2">
@@ -59,6 +59,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 </body>
 </html>

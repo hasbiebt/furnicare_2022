@@ -20,7 +20,7 @@
         <div class="bg-right col-lg-7">
             <div class=" form-login">
                 <h1 class="welcome-font">Welcome!</h1>
-                <form>
+                <form name="login-form" action="php/login-1.php" method="post">
                     <div class="mb-3">
                       <input placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
@@ -31,8 +31,8 @@
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Remind me</label>
                     </div>
-                    <button type="submit" class=" button-login btn btn-primary">Login</button>
-                    <a href="./signup.html"><button type="button" class="button-signup btn btn-outline-secondary">Sign Up</button></a>
+                    <button type="submit" class="button-signup btn btn-primary" value="submit" name="login">Login</button>
+                    <a href="./signup.php"><button type="button" class="button-signup btn btn-outline-secondary">Sign Up</button></a>
                 </form>
             </div>
         </div>
