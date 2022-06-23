@@ -1,0 +1,102 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	color: #57523E
+}
+
+.btn{
+	font-size: 18px;
+	font-weight: 400;
+	width: auto;
+	background-color: #797051;
+	border-radius: 0;
+	border-color: transparent;
+	margin-left: 25px;
+}
+
+.btn:link{
+	background-color: #A39872;
+}
+
+.btn:visited{
+	background-color: red;
+}
+
+.btn:hover{
+	background-color: #504C3E;
+	border-color: transparent;
+}
+
+.nav-link{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#span-header{
+	padding-top: 90px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.content-service{
+	padding-left: 55px;
+}
+
+#bg-white{
+	background-color: #FFF3E5;
+	height: 475px;
+	width: 810px;
+}
+
+.img{
+	max-width: 116%;
+}
+
+#bg-white>col-4{
+	padding-left: 0;
+}
+
+#row-p2, #row-p3, #row-p4{
+	margin-bottom: 30px;
+}
+
+#bg-white:nth-child(1){
+	padding-top: 20px;
+	padding-left: 40px;
+/*	line-height: 1.7;*/
+}
+
+#bg-white>h3, p{
+	padding-top: 40px;
+}
+
+.btn#services-button{
+	margin-left: 0;
+	margin-top: -15px;
+	width: 150px;
+}
+
+#terms{
+	margin-top: -35px;
+	font-size: 12px;
+}
+#start-form{
+	position: absolute;
+	width: 355px;
+	height: 71px;
+	left: 845px;
+	top: 718px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 58px;
+	line-height: 71px;
+/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.015em;
+
+	color: #797051;
+}

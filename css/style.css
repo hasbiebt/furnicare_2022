@@ -124,3 +124,28 @@ html{
 	margin-top: 35px;
 	width: 150px;
 }
+
+.blog-content{
+	margin-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+	background-color: rgba(255, 235, 212, 1);
+}
+.gambar-content{
+width: 350px;
+}
+.background-content1{
+	padding-left: 285px;
+	padding-right: 50px;
+}
+.background-content2{
+	padding-right: 285px;
+	padding-left: 50px;
+}
+.text-content{
+	padding-top: 25px;
+}
+.text-latestpost{
+	color: rgba(87, 82, 62, 1);
+	padding-bottom: 25px;
+}

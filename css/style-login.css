@@ -23,6 +23,7 @@ body{
     background-color:#797051;
     color: white;
     border-radius: 0;
+    border-color: white !important;
 }
 .button-login:hover{ 
     background-color: #4e4d49;
